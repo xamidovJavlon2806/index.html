@@ -1,0 +1,42 @@
+section{
+    width: 100%;
+    height: 200vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(IMG.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fa4659;
+
+}
+h6{
+    margin-top: 5px;
+    text-align: justify;
+    margin-left: 10px;
+    color:azure;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+ button{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    color: #fa4659;
+    background: transparent;
+    border: 4px solid #fa4659;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    left: 400px;
+}
+div button  :hover{
+    background: #fa4659;
+    color: #fff;
+    transition: 0.5s;
+}
